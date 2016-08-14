@@ -9,12 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 const core_1 = require('@angular/core');
+const peek_a_boo_parent_component_1 = require('./peek-a-boo-parent.component');
+const peek_a_boo_component_1 = require('./peek-a-boo.component');
 let AppComponent = class AppComponent {
 };
 AppComponent = __decorate([
     core_1.Component({
         selector: 'my-app',
-        templateUrl: 'app/app.component.html'
+        templateUrl: 'app/app.component.html',
+        directives: [
+            peek_a_boo_parent_component_1.PeekABooParentComponent,
+            peek_a_boo_component_1.PeekABooComponent
+        ]
     }), 
     __metadata('design:paramtypes', [])
 ], AppComponent);
