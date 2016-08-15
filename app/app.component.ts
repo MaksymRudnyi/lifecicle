@@ -1,7 +1,13 @@
 import { Component } from '@angular/core';
+
+import { PeekABooParentComponent } from './peek-a-boo-parent.component';
+
 @Component({
     selector: 'my-app',
-    templateUrl: 'app/app.component.html'
+    templateUrl: 'app/app.component.html',
+    directives: [
+        PeekABooParentComponent
+    ]
 })
 export class AppComponent { }
 
