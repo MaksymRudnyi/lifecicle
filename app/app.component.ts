@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 
 import { PeekABooParentComponent } from './peek-a-boo-parent.component';
+import { SpyParentComponent } from './spy.component';
 
 @Component({
     selector: 'my-app',
     templateUrl: 'app/app.component.html',
     directives: [
-        PeekABooParentComponent
+        PeekABooParentComponent,
+        SpyParentComponent
     ]
 })
 export class AppComponent { }
