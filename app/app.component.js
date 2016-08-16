@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 const core_1 = require('@angular/core');
 const peek_a_boo_parent_component_1 = require('./peek-a-boo-parent.component');
 const spy_component_1 = require('./spy.component');
+const on_changes_component_1 = require('./on-changes.component');
 let AppComponent = class AppComponent {
 };
 AppComponent = __decorate([
@@ -19,7 +20,8 @@ AppComponent = __decorate([
         templateUrl: 'app/app.component.html',
         directives: [
             peek_a_boo_parent_component_1.PeekABooParentComponent,
-            spy_component_1.SpyParentComponent
+            spy_component_1.SpyParentComponent,
+            on_changes_component_1.OnChangesParentComponent
         ]
     }), 
     __metadata('design:paramtypes', [])

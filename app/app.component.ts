@@ -3,12 +3,15 @@ import { Component } from '@angular/core';
 import { PeekABooParentComponent } from './peek-a-boo-parent.component';
 import { SpyParentComponent } from './spy.component';
 
+import { OnChangesComponent, OnChangesParentComponent} from './on-changes.component'
+
 @Component({
     selector: 'my-app',
     templateUrl: 'app/app.component.html',
     directives: [
         PeekABooParentComponent,
-        SpyParentComponent
+        SpyParentComponent,
+        OnChangesParentComponent
     ]
 })
 export class AppComponent { }
