@@ -12,6 +12,7 @@ const core_1 = require('@angular/core');
 const peek_a_boo_parent_component_1 = require('./peek-a-boo-parent.component');
 const spy_component_1 = require('./spy.component');
 const on_changes_component_1 = require('./on-changes.component');
+const after_content_component_1 = require('./after-content.component');
 let AppComponent = class AppComponent {
 };
 AppComponent = __decorate([
@@ -21,7 +22,8 @@ AppComponent = __decorate([
         directives: [
             peek_a_boo_parent_component_1.PeekABooParentComponent,
             spy_component_1.SpyParentComponent,
-            on_changes_component_1.OnChangesParentComponent
+            on_changes_component_1.OnChangesParentComponent,
+            after_content_component_1.AfterContentParentComponent
         ]
     }), 
     __metadata('design:paramtypes', [])

@@ -5,13 +5,15 @@ import { SpyParentComponent } from './spy.component';
 
 import { OnChangesComponent, OnChangesParentComponent} from './on-changes.component'
 
+import {AfterContentParentComponent} from './after-content.component'
 @Component({
     selector: 'my-app',
     templateUrl: 'app/app.component.html',
     directives: [
         PeekABooParentComponent,
         SpyParentComponent,
-        OnChangesParentComponent
+        OnChangesParentComponent,
+        AfterContentParentComponent
     ]
 })
 export class AppComponent { }
