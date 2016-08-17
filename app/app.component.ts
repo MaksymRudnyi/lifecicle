@@ -6,6 +6,11 @@ import { SpyParentComponent } from './spy.component';
 import { OnChangesComponent, OnChangesParentComponent} from './on-changes.component'
 
 import {AfterContentParentComponent} from './after-content.component'
+
+import { AfterViewParentComponent } from './after-view.component';
+
+import { DoCheckParentComponent } from './do-check.component';
+
 @Component({
     selector: 'my-app',
     templateUrl: 'app/app.component.html',
@@ -13,7 +18,9 @@ import {AfterContentParentComponent} from './after-content.component'
         PeekABooParentComponent,
         SpyParentComponent,
         OnChangesParentComponent,
-        AfterContentParentComponent
+        AfterContentParentComponent,
+        AfterViewParentComponent,
+        DoCheckParentComponent
     ]
 })
 export class AppComponent { }
