@@ -11,6 +11,8 @@ import { AfterViewParentComponent } from './after-view.component';
 
 import { DoCheckParentComponent } from './do-check.component';
 
+import { CounterParentComponent } from './counter.component'
+
 @Component({
     selector: 'my-app',
     templateUrl: 'app/app.component.html',
@@ -20,7 +22,8 @@ import { DoCheckParentComponent } from './do-check.component';
         OnChangesParentComponent,
         AfterContentParentComponent,
         AfterViewParentComponent,
-        DoCheckParentComponent
+        DoCheckParentComponent,
+        CounterParentComponent
     ]
 })
 export class AppComponent { }

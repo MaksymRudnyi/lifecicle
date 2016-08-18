@@ -15,6 +15,7 @@ const on_changes_component_1 = require('./on-changes.component');
 const after_content_component_1 = require('./after-content.component');
 const after_view_component_1 = require('./after-view.component');
 const do_check_component_1 = require('./do-check.component');
+const counter_component_1 = require('./counter.component');
 let AppComponent = class AppComponent {
 };
 AppComponent = __decorate([
@@ -27,7 +28,8 @@ AppComponent = __decorate([
             on_changes_component_1.OnChangesParentComponent,
             after_content_component_1.AfterContentParentComponent,
             after_view_component_1.AfterViewParentComponent,
-            do_check_component_1.DoCheckParentComponent
+            do_check_component_1.DoCheckParentComponent,
+            counter_component_1.CounterParentComponent
         ]
     }), 
     __metadata('design:paramtypes', [])
